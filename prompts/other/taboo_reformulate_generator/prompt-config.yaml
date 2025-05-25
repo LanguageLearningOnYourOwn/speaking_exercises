@@ -1,0 +1,3 @@
+prompt: other/taboo_reformulate_generator/prompt.md
+prompt_input:  # key : path mapping
+  discussed: other/taboo_reformulate_generator/discussed.md

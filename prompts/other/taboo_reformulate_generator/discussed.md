@@ -1,0 +1,4 @@
+Algorithm
+Democracy
+Renaissance
+Apple
