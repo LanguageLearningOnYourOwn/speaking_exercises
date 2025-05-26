@@ -3,6 +3,7 @@ Interactive command-line interface for the prompt configuration system.
 """
 
 import sys
+import pyperclip
 from pathlib import Path
 from typing import List, Dict, Optional
 from collections import defaultdict
@@ -153,10 +154,12 @@ class InteractiveCLI:
     def generate_selected_prompt(self, prompt):
         """Generate the selected prompt."""
         print(f"\nGenerating prompt '{prompt.name}'...")
+        print("Note: The prompt will be copied to the clipboard as well.")
         print("-" * 50)
         
         try:
             prompt_content = self.generator.generate_prompt(prompt.path)
+            pyperclip.copy(prompt_content)  # Copy to clipboard
             print(prompt_content)
         except PromptConfigError as e:
             print(f"Error generating prompt: {e}")
