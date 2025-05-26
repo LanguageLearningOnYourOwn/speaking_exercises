@@ -13,7 +13,13 @@ from pathlib import Path
 src_path = Path(__file__).parent / "src"
 sys.path.insert(0, str(src_path))
 
-from src.cli import cli
+from src.cli import InteractiveCLI
+
+def main():
+    """Entry point for the interactive CLI."""
+    cli = InteractiveCLI()
+    cli.run()
+
 
 if __name__ == '__main__':
-    cli()
+    main()
