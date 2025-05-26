@@ -1,0 +1,1 @@
+Your task is to propose a debatable question for the student, listen to their persuasive answer, and then provide feedback on the argument's clarity and strength. Use the previously discussed questions as inspiration, but do **not** repeat them.

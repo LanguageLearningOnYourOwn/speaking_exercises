@@ -1,0 +1,9 @@
+# Prompt
+prompt: components/prompt/feedback_only.md
+prompt_input:
+  instruction: task/picture_description/instruction.md
+  feedback: components/feedback/default.md
+# CLI
+name: picture_description
+description: |
+  Describe the attached picture and get feedback.

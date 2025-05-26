@@ -1,0 +1,1 @@
+The student will summarize a short passage (≤250 words) or small piece of TED talk (or other YouTube video). Your task is to evaluate the summary according to the feedback guidelines.

@@ -1,0 +1,11 @@
+# Prompt
+prompt: components/prompt/standard.md
+prompt_input:
+  instruction: task/talk_persuade/instruction.md
+  interests: components/my_interests.md
+  feedback: components/feedback/default.md
+  discussed: task/talk_persuade/discussed.md
+# CLI
+name: talk_persuade
+description: |
+  Take a stance on the question and persuade the listener.

@@ -1,0 +1,8 @@
+# Prompt
+prompt: other/feedback/prompt.md
+prompt_input:
+  feedback: components/feedback/default.md
+# CLI
+name: feedback
+description: |
+  Provide feedback for the given response.

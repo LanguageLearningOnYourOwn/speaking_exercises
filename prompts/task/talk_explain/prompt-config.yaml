@@ -1,0 +1,11 @@
+# Prompt
+prompt: components/prompt/standard.md
+prompt_input:
+  instruction: task/talk_explain/instruction.md
+  interests: components/my_interests.md
+  feedback: components/feedback/default.md
+  discussed: task/talk_explain/discussed.md
+# CLI
+name: talk_explain
+description: |
+  Explain the given concept or term clearly and logically.

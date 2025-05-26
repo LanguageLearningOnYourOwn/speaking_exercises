@@ -1,0 +1,9 @@
+# Prompt
+prompt: components/prompt/feedback_only.md
+prompt_input:
+  instruction: task/summarization/instruction.md
+  feedback: components/feedback/default.md
+# CLI
+name: summarization
+description: |
+  Summarize the given passage concisely and receive feedback.
