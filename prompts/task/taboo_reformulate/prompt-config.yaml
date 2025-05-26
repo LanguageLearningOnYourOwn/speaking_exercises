@@ -7,5 +7,4 @@ prompt_input:  # key : path mapping
 # CLI
 name: taboo_reformulate
 description: |
-  Reformulate the given text to avoid using any of the words in the provided taboo list.
-  The reformulated text should maintain the original meaning while adhering to the taboo restrictions.
+  Explain the given word without using any of the words in the provided taboo list.

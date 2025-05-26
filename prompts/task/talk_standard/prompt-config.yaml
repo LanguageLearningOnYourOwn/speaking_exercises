@@ -1,0 +1,11 @@
+# Prompt
+prompt: components/prompt/standard.md
+prompt_input:
+  instruction: task/talk_standard/instruction.md
+  interests: components/my_interests.md
+  feedback: components/feedback/default.md
+  discussed: task/talk_standard/discussed.md
+# CLI
+name: talk_standard
+description: |
+  Engage in a conversation about the provided topic. Give an open answer to the question.
