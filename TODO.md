@@ -18,7 +18,7 @@
   Automate topic research by generating new angles/questions  
 - **“Advice” prompt**  
   e.g. “What psychological strategies can people use to overcome procrastination?”  
-
+- New exercise = new chat
 ---
 
 ## 🗒️ Notes
